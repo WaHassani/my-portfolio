@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #f0f0f0;
+    background-color: #1e1e2f;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    background-color: #121212;
+    padding: 1rem;
+    position: relative;
+    color: #ffffff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header .tagline {
+    font-size: 1.0rem;
+    font-style:oblique;
+    color: #c9eb0cf5;
+}
+
+header ul {
+    display: flex;
+    gap: 1rem;
+}
+
+header ul li {
+    display: inline;
+}
+
+header .btn {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+header .btn:hover {
+    background-color: #388e3c;
+}
+
+section {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4caf50;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #4caf50;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+}
+
+iframe.iframe-project {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+}
+
+#skills {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4caf50;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.skills-column {
+    flex: 1;
+    background-color: #2b2b3d; 
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills-column h3 {
+    color: #4caf50;
+    margin-bottom: 1rem;
+}
+
+.skills-column ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-column ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills-column ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.va-experience-list {
+    list-style-type: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.va-experience-list li {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.va-experience-list li::before {
+    content: '★';
+    color: #4caf50;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+
+.va-experience-list strong {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #4caf50;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    background-color: #121212;
+    text-align: center;
+    padding: 1rem;
+    color: #bbbbbb;
+}
