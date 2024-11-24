@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kenya Travel & Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Kenya</h1>
+        <p>Explore the beauty of the magical Kenya!</p>
+        <a href="#destinations" class="btn">Discover More</a>
+    </section>
+
+<section id="destinations">
+    <h2>Top Destinations in Kenya</h2>
+    <div class="destination-grid">
+        <div class="destination">
+            <img src="images/maasai-mara.jpg" alt="Maasai Mara">
+            <h3>Maasai Mara</h3>
+            <p>Experience the Great Migration and the vast savannah of Kenya’s famous Maasai Mara National Reserve.</p>
+        </div>
+        <div class="destination">
+            <img src="images/diani-beach.jpg" alt="Diani Beach">
+            <h3>Diani Beach</h3>
+            <p>Relax at the pristine beaches of Diani, one of Africa’s top beach destinations.</p>
+        </div>
+        <div class="destination">
+            <img src="images/mt-kenya.jpg" alt="Mount Kenya">
+            <h3>Mount Kenya</h3>
+            <p>Climb Africa’s second-highest peak and marvel at the breathtaking views of Mount Kenya.</p>
+        </div>
+    </div>
+</section>
+
+<section id="events">
+    <h2>Kenya's Events & Festivals</h2>
+    <div class="event-grid">
+        <div class="event">
+            <h3>Lamu Cultural Festival</h3>
+            <p>Join this annual festival celebrating the rich culture of Lamu, a UNESCO World Heritage site, with traditional music, dances, and dhow races.</p>
+        </div>
+        <div class="event">
+            <h3>The Great Migration</h3>
+            <p>Witness the awe-inspiring migration of over 1.5 million wildebeest and zebras between the Maasai Mara and the Serengeti, one of the greatest natural spectacles on earth.</p>
+        </div>
+        <div class="event">
+            <h3>Safari Rally</h3>
+            <p>Feel the thrill of the iconic Safari Rally, a high-speed adventure across Kenya’s rugged terrains that attracts motorsport enthusiasts worldwide.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have any questions or want to book a tour? Get in touch with us!</p>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<a href="#" id="openModal" class="btn">Book a Tour</a>
+
+<div id="tourModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Book Your Kenya Tour</h2>
+        <p>Fill out the form to book your next adventure!</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <a href="#" id="openModal" class="btn">Book a Tour</a>
+
+        </form>
+    </div>
+</div>
+
+    <footer>
+        <p>&copy; 2024 Kenya Travel & Tourism</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
